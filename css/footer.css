@@ -1,0 +1,151 @@
+/* =================== */
+/* ! footer override   */
+/* =================== */
+
+#access,
+#record-log {
+    float: right;
+    color: #556C82;
+    }
+    #record-log .col1 {width:auto;}
+
+#crm-container #civicrm-footer { 
+    margin:0 0 3em 0;
+    border-top: 0px;
+    text-align: left;
+    color:#556C82;
+    }
+
+/* ======================== */
+/* ! layout & positioning   */
+/* ======================== */
+
+#section-footer {
+    position: fixed;
+    width:100%;
+    bottom: 0px;
+    height:23px;
+    padding: 4px 0px;
+    background: transparent url(../images/bottom-bg.jpg) repeat-x scroll left top;
+    z-index: 20;
+    border: 1px solid #CECECE;
+    }
+
+#zone-footer-wrapper {
+    position: relative;
+    top:0px;
+    }
+
+footer .region {
+    margin-right: 18px;
+    }
+#region-footer-first,
+#region-footer-third {
+    position:absolute;
+	bottom:26px;
+    }
+	#region-footer-first {
+		left:0px;
+	}
+	#region-footer-third {
+		right:0px;
+	    }
+    
+footer .region  h3 {
+    display: none;
+    }    
+
+footer .region a {
+    color: #5E5F5F;
+    text-decoration: none;
+    }
+
+/* ============== */
+/* ! create new   */
+/* ============== */
+
+
+#region-footer-first #crm-create-new-list {
+    bottom:28px;
+    top:auto;
+    background: transparent url(../images/icons/overlay-pointer.png) no-repeat scroll bottom left;
+    padding: 0 0 5px 0;
+    width: 140px;
+    }
+#region-footer-first .dropdown-icon {
+    background-position:2px -33px;
+    }
+
+#region-footer-first .crm-create-new-list-inner {
+    -moz-border-radius: 	3px; 
+	-webkit-border-radius: 	3px;   
+	-khtml-border-radius: 	3px; 
+	border-radius:			3px;	
+}
+	#region-footer-first .crm-create-new-list-inner li a {
+		color :#fefefe;
+	}
+	#region-footer-first .crm-create-new-list-inner li a:hover {
+		color :#666;
+	}
+
+/* ================ */
+/* ! quick create   */
+/* ================ */
+
+#zone-footer-wrapper #region-footer-third .block {
+    position: relative;
+    z-index: 15;
+    top:0px;
+    margin:0px;
+    }
+
+#zone-footer-wrapper #region-footer-third h2 { 
+    display: block;
+    -moz-border-radius: 	3px; 
+	-webkit-border-radius: 	3px;   
+	-khtml-border-radius: 	3px; 
+	border-radius:			3px;
+	background:#70716B url(../images/crm-button-bg.gif) repeat-x scroll left top;
+    border:1px solid #3E3E3E;
+    color:#FFFFFF;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:normal;
+    margin-right:6px;
+    padding:2px 6px;
+    text-decoration:none;
+    text-shadow:0 1px 0 black;
+    }
+
+#zone-footer-wrapper #region-footer-third .form-item {
+    margin:4px 0px;
+    }
+
+#zone-footer-wrapper #region-footer-third .content {
+    background:transparent url(../images/icons/overlay-pointer.png) no-repeat scroll 60px bottom;
+    bottom:28px;
+    padding:0 0 5px;
+    top:auto;
+    right:0px;
+    z-index:9999;
+    position: absolute;
+    padding:0 0 5px;
+    font-weight: normal;
+    display: none;
+    }
+
+
+#zone-footer-wrapper #region-footer-third #crm-quick-create {
+    -moz-border-radius: 	4px; 
+	-webkit-border-radius: 	4px;   
+	-khtml-border-radius: 	4px; 
+	border-radius:			4px; 
+    padding:4px;
+    background-color:#2F2F2E;
+    color:#DFDFDF;
+    }
+
+#zone-footer-wrapper #region-footer-third #crm-quick-create input.form-submit {
+    border-color: #000;
+    }

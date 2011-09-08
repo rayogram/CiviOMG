@@ -1,0 +1,69 @@
+/* ================ */
+/* ! recent items   */
+/* ================ */
+
+.block-civicrm div#recently-viewed ul li.crm-recently-viewed ul { background-color:transparent; }
+
+#region-footer-second { 
+    width: 960px;
+    margin: 0px auto;
+    }
+
+#region-footer-second h2 {
+    display: block;
+    float: left;
+    font-size: 11px;
+    color: #666;
+    font-weight: normal;
+    margin:4px 0px
+    }
+
+#region-footer-second #recently-viewed li.crm-recently-viewed {
+    background-color: transparent;
+    border: 1px solid transparent;
+    float: left;
+    margin-right:1em;
+    margin-top:-1px;
+    padding:1px 3px;
+    position: relative;
+    -webkit-border-radius: 4px 0px 4px 4px;
+    -moz-border-radius: 4px 0px 4px 4px;
+    border-radius: 4px 0px 4px 4px;
+    }
+    
+    #region-footer-second #recently-viewed li.crm-recently-viewed:hover {
+        background-color: #F8F8F8;
+        border:1px solid #CECECE;
+        }
+    
+    #region-footer-second div#recently-viewed a {
+        color:#2786C2;
+        position:relative;
+        top:-1px;
+        }
+        #region-footer-second div#recently-viewed a .crm-icon { 
+            margin-top:0px;
+            position:relative;
+            top:2px;
+            }
+    
+    #region-footer-second #recently-viewed li ul.crm-recentview-wrapper {
+        top:0px;
+        right:-1px;
+        }
+    #region-footer-second #recently-viewed li ul.crm-recentview-wrapper li {
+        background-color: #F8F8F8;
+        border:1px solid #CECECE;
+        border-bottom: none;
+        padding:2px;
+        -webkit-border-radius: 4px 4px 0px 0px;
+        -moz-border-radius: 4px 4px 0px 0px;
+        border-radius: 4px 4px 0px 0px;
+        }
+    #region-footer-second #recently-viewed li ul.crm-recentview-wrapper li a:hover {
+        color:#2D6F96;
+        }
+     #region-footer-second #recently-viewed li ul.crm-recentview-wrapper li a.crm-actions-delete:hover {
+        color:#E43D2B;
+        }        
+

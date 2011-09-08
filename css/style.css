@@ -1,0 +1,80 @@
+/* put your custom CSS in here */
+
+#section-header {
+    padding:0px 0px 1px 0px;
+    }
+
+
+#section-content {
+    background-color: #F8F8F8;
+    padding: 1px;
+    }
+
+
+#section-content h2 {
+    margin:6px 0px;
+    }
+
+.crm-contact-actions-list-inner {
+	-moz-border-radius: 	3px; 
+	-webkit-border-radius: 	3px;   
+	-khtml-border-radius: 	3px; 
+	border-radius:			3px;
+}
+
+/* USER LOGIN SECTION THEMING */
+#block-user-login {
+	height:30px;
+}
+#block-user-login h2 {
+	display:none;
+}
+#block-user-login div.form-item,
+#block-user-login div.form-actions {
+	float:left;
+	margin:2px 1em 2px 0px;
+}
+#block-user-login div.form-actions {
+	float:left;
+}
+
+#block-user-login div.item-list {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+#block-user-login div.item-list li {
+	display:inline;
+}
+
+/* move edit tabs to side of content */
+div.tabs {
+	margin-bottom: 1.5em;
+	position: absolute;
+	left: -120px;
+}
+div.tabs ul.primary {
+	margin:0px;
+	border:none;
+	padding:0px;
+}
+div.tabs ul.primary li {
+	display:block;
+}
+div.tabs ul.primary li a {
+	display:block;
+	width:90px;
+	margin:4px;
+	border:none;
+	background-color:#FAFAFA;
+	-moz-border-radius: 	3px; 
+	-webkit-border-radius: 	3px;   
+	-khtml-border-radius: 	3px; 
+	border-radius:			3px;
+	}
+	div.tabs ul.primary li a:hover {
+		background-color:#FFFFFF;
+	}
+	div.tabs ul.primary li a.active {
+		background-color:#FCFCFC;
+	}
