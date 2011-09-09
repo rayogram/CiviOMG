@@ -630,7 +630,7 @@ ul li, ul.menu li, .item-list ul li, li.leaf {
 /* ================================== */
 
 
-.region-header-first-inner {
+.region-header-civi-search-inner {
     background-color: #96C0E7;
     padding: 4px;
     -moz-border-radius: 	4px; 
@@ -641,12 +641,12 @@ ul li, ul.menu li, .item-list ul li, li.leaf {
     margin-top:20px;
 	}
 
-#region-header-first h2 { 
+#region-header-civi-search h2 { 
     display: none;
     }
 
-#region-header-first input#text,
-#region-header-first select {
+#region-header-civi-search input#text,
+#region-header-civi-search select {
     background-color:#FFFFFF;
     border:1px solid #CCC;
     padding:3px;
@@ -655,11 +655,12 @@ ul li, ul.menu li, .item-list ul li, li.leaf {
     -khtml-border-radius: 	3px; 
     border-radius:			3px;
     }
-	#region-header-first form div {
+	#region-header-civi-search input#text { width:17em!important;}
+	#region-header-civi-search form div {
 		float:left;
 		margin:0px !important;
 		}
-	#region-header-first form div.helpicon {float:none}
+	#region-header-civi-search form div.helpicon {float:none}
 
 
 /* ================= */

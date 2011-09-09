@@ -6,6 +6,8 @@ function civiomg_alpha_process_zone(&$vars) {
   
   if ($vars['elements']['#zone'] == 'header') {
     $vars['messages'] = $theme->page['messages'];
+  }
+  if ($vars['elements']['#zone'] == 'navigation') {
     $vars['breadcrumb'] = $theme->page['breadcrumb'];
   }
 }

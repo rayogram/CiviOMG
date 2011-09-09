@@ -4,12 +4,12 @@
 
 .block-civicrm div#recently-viewed ul li.crm-recently-viewed ul { background-color:transparent; }
 
-#region-footer-second { 
+#region-footer-recent-items { 
     width: 960px;
     margin: 0px auto;
     }
 
-#region-footer-second h2 {
+#region-footer-recent-items h2 {
     display: block;
     float: left;
     font-size: 11px;
@@ -18,7 +18,7 @@
     margin:4px 0px
     }
 
-#region-footer-second #recently-viewed li.crm-recently-viewed {
+#region-footer-recent-items #recently-viewed li.crm-recently-viewed {
     background-color: transparent;
     border: 1px solid transparent;
     float: left;
@@ -31,27 +31,27 @@
     border-radius: 4px 0px 4px 4px;
     }
     
-    #region-footer-second #recently-viewed li.crm-recently-viewed:hover {
+    #region-footer-recent-items #recently-viewed li.crm-recently-viewed:hover {
         background-color: #F8F8F8;
         border:1px solid #CECECE;
         }
     
-    #region-footer-second div#recently-viewed a {
+    #region-footer-recent-items div#recently-viewed a {
         color:#2786C2;
         position:relative;
         top:-1px;
         }
-        #region-footer-second div#recently-viewed a .crm-icon { 
+        #region-footer-recent-items div#recently-viewed a .crm-icon { 
             margin-top:0px;
             position:relative;
             top:2px;
             }
     
-    #region-footer-second #recently-viewed li ul.crm-recentview-wrapper {
+    #region-footer-recent-items #recently-viewed li ul.crm-recentview-wrapper {
         top:0px;
         right:-1px;
         }
-    #region-footer-second #recently-viewed li ul.crm-recentview-wrapper li {
+    #region-footer-recent-items #recently-viewed li ul.crm-recentview-wrapper li {
         background-color: #F8F8F8;
         border:1px solid #CECECE;
         border-bottom: none;
@@ -60,10 +60,10 @@
         -moz-border-radius: 4px 4px 0px 0px;
         border-radius: 4px 4px 0px 0px;
         }
-    #region-footer-second #recently-viewed li ul.crm-recentview-wrapper li a:hover {
+    #region-footer-recent-items #recently-viewed li ul.crm-recentview-wrapper li a:hover {
         color:#2D6F96;
         }
-     #region-footer-second #recently-viewed li ul.crm-recentview-wrapper li a.crm-actions-delete:hover {
+     #region-footer-recent-items #recently-viewed li ul.crm-recentview-wrapper li a.crm-actions-delete:hover {
         color:#E43D2B;
         }        
 

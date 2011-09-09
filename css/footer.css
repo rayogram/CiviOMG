@@ -39,15 +39,15 @@
 footer .region {
     margin-right: 18px;
     }
-#region-footer-first,
-#region-footer-third {
+#region-footer-create-new,
+#region-footer-quick-add {
     position:absolute;
 	bottom:26px;
     }
-	#region-footer-first {
+	#region-footer-create-new {
 		left:0px;
 	}
-	#region-footer-third {
+	#region-footer-quick-add {
 		right:0px;
 	    }
     
@@ -65,27 +65,27 @@ footer .region a {
 /* ============== */
 
 
-#region-footer-first #crm-create-new-list {
+#region-footer-create-new #crm-create-new-list {
     bottom:28px;
     top:auto;
     background: transparent url(../images/icons/overlay-pointer.png) no-repeat scroll bottom left;
     padding: 0 0 5px 0;
     width: 140px;
     }
-#region-footer-first .dropdown-icon {
+#region-footer-create-new .dropdown-icon {
     background-position:2px -33px;
     }
 
-#region-footer-first .crm-create-new-list-inner {
+#region-footer-create-new .crm-create-new-list-inner {
     -moz-border-radius: 	3px; 
 	-webkit-border-radius: 	3px;   
 	-khtml-border-radius: 	3px; 
 	border-radius:			3px;	
 }
-	#region-footer-first .crm-create-new-list-inner li a {
+	#region-footer-create-new .crm-create-new-list-inner li a {
 		color :#fefefe;
 	}
-	#region-footer-first .crm-create-new-list-inner li a:hover {
+	#region-footer-create-new .crm-create-new-list-inner li a:hover {
 		color :#666;
 	}
 
@@ -93,14 +93,14 @@ footer .region a {
 /* ! quick create   */
 /* ================ */
 
-#zone-footer-wrapper #region-footer-third .block {
+#zone-footer-wrapper #region-footer-quick-add .block {
     position: relative;
     z-index: 15;
     top:0px;
     margin:0px;
     }
 
-#zone-footer-wrapper #region-footer-third h2 { 
+#zone-footer-wrapper #region-footer-quick-add h2 { 
     display: block;
     -moz-border-radius: 	3px; 
 	-webkit-border-radius: 	3px;   
@@ -118,11 +118,11 @@ footer .region a {
     text-shadow:0 1px 0 black;
     }
 
-#zone-footer-wrapper #region-footer-third .form-item {
+#zone-footer-wrapper #region-footer-quick-add .form-item {
     margin:4px 0px;
     }
 
-#zone-footer-wrapper #region-footer-third .content {
+#zone-footer-wrapper #region-footer-quick-add .content {
     background:transparent url(../images/icons/overlay-pointer.png) no-repeat scroll 60px bottom;
     bottom:28px;
     padding:0 0 5px;
@@ -136,7 +136,7 @@ footer .region a {
     }
 
 
-#zone-footer-wrapper #region-footer-third #crm-quick-create {
+#zone-footer-wrapper #region-footer-quick-add #crm-quick-create {
     -moz-border-radius: 	4px; 
 	-webkit-border-radius: 	4px;   
 	-khtml-border-radius: 	4px; 
@@ -146,6 +146,6 @@ footer .region a {
     color:#DFDFDF;
     }
 
-#zone-footer-wrapper #region-footer-third #crm-quick-create input.form-submit {
+#zone-footer-wrapper #region-footer-quick-add #crm-quick-create input.form-submit {
     border-color: #000;
     }

@@ -19,5 +19,14 @@ $(document).ready(function() {
             $('#right-sidebar-handle .ui-icon').removeClass('ui-icon-arrowthickstop-1-e');
             $('#right-sidebar-handle .ui-icon').addClass('ui-icon-arrowthickstop-1-w');
         });	
-    });
+    $('#region-menu h2').click(function(){
+		$('#region-menu').toggleClass('active');
+	});
+	$('.region-dashboard-nav h2').click(function(){
+		$('#zone-dashboard').toggleClass('active');
+		$(this).toggleClass('active');
+	});
+
+
+	});
 })(jQuery);
